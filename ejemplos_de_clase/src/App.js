@@ -7,7 +7,6 @@ import RouterAuth from "./routes/RouterAuth"
 import RouterParams from "./routes/RouterParams"
 import RouterAnidados from "./routes/RouterAnidados"
 import RouterAnidadosOutlet from "./routes/RouterAnidadosOutlet"
-import RouterSPA from "./routes/RouterSPA"
 
 
 function App() {
@@ -29,10 +28,7 @@ function App() {
 
         {/* 5. Rutas anidadas (subrutas) */}
         {/* <RouterAnidadosOutlet /> */}
-
-        {/* 6. Router para single page application (SPA) */}
-        {/* <RouterSPA /> */}
-        
+       
     </div>
   );
 }

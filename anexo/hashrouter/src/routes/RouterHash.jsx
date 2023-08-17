@@ -17,7 +17,7 @@ import Login from "../views/Login"
 // como el Navbar, carteles de alerta, etc
 import Navbar from "../components/Navbar/Navbar"
 
-const RouterSPA=()=>{
+const RouterHash=()=>{
   return(
     <>
       <HashRouter>
@@ -43,5 +43,5 @@ const RouterSPA=()=>{
   )
 }
 
-export default RouterSPA;
+export default RouterHash;
 
